@@ -25,7 +25,7 @@ node{
     stage('approvalgate'){
         sh "echo 'please contact Desmond for approval'"
         timeout(time:5, unit: 'DAYS'){
-            input message:  'Approve application ready for deployment to dev'
+            input message:  'Approve application ready for deployment to dmissibi'
 
 
         }
@@ -33,7 +33,7 @@ node{
     }
 
     stage('deploy-to-staging'){
-        deploy adapters: [tomcat9(credentialsId: 'tomcat-deploy', path: '', url: 'http://44.208.161.47:8009/')], contextPath: 'stagin-environment', war: 'target/*.war'
+        deploy adapters: [tomcat9(credentialsId: 'tomcat-deployer', path: '', url: 'http://44.208.161.47:8009/')], contextPath: 'staging-enviroment', war: 'target/*.war'
     }
 
     stage('approvalgate'){
