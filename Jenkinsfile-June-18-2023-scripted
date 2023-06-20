@@ -19,7 +19,7 @@ node{
     }
     stage('deploy-dmissibi'){
         sh "echo 'deploy to dev environment'"
-        deploy adapters: [tomcat9(credentialsId: 'tomcat-deploy', path: '', url: 'http://44.208.161.47:8009/')], contextPath: 'dev', war: 'target/*.war'
+        deploy adapters: [tomcat9(credentialsId: 'tomcat-deployer', path: '', url: 'http://44.208.161.47:8009/')], contextPath: 'dmissibi', war: 'target/*.war'
     }
 
     stage('approvalgate'){
