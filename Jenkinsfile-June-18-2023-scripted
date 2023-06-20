@@ -17,7 +17,7 @@ node{
     stage('4-upload-2-nexus'){
         sh "${mavenHome}/bin/mvn deploy"
     }
-    stage('deploy-dev'){
+    stage('deploy-dmissibi'){
         sh "echo 'deploy to dev environment'"
         deploy adapters: [tomcat9(credentialsId: 'tomcat-deploy', path: '', url: 'http://44.208.161.47:8009/')], contextPath: 'dev', war: 'target/*.war'
     }
