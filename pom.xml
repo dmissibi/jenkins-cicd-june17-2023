@@ -108,7 +108,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>class20-welcomapp</finalName>
+		<finalName>dmissibi-class20-welcomapp</finalName>
 		
 		<plugins>
 			<plugin>
