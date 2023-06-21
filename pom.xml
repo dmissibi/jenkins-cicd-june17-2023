@@ -22,9 +22,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.208.161.47:9000/</sonar.host.url>
+		<sonar.host.url>http://54.211.209.180:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>  
-		<sonar.login>86a08dd07a95881cd079599545a8526872121e7c</sonar.login>
+		<sonar.login>8c7404275641356787f38692c92e6be4fafc2a08</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -108,7 +108,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>dmissibi-class20-welcomapp</finalName>
+		<finalName>class20-welcomapp</finalName>
 		
 		<plugins>
 			<plugin>
