@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
-	      <url>http://52.91.26.176:8081/repository/project-june18-release/</url>
+	      <url>http://18.234.187.38:8081/repository/june21-multibranch-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
-	      <url>http://52.91.26.176:8081/repository/project-jun-18-snapshot/</url>
+	      <url>http://18.234.187.38:8081/repository/june21-multibranch-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
